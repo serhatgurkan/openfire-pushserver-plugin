@@ -59,7 +59,7 @@
         <meta name="pageID" content="pushserver-settings"/>
     </head>
     <body>
-
+        <h1>TESTING!!!</h1>
         <!-- Display all error and success messages -->
         <c:forEach var="message" items="${messageList}">
             <admin:infobox type="${message.success ? 'success' : 'error'}">
